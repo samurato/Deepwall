@@ -1,2 +1,2 @@
 # Deepwall
-Deep Learning based firewall development project
+Deep Learning based Intrusion Detection Project
