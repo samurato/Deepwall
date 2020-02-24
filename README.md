@@ -1,5 +1,4 @@
-# TCP Packet Extractor
-
+# DeepWall:- AI based Intrusion Detection System.
 ## Introduction
 
 Deep wall is an open source project which is in its very early stage with a vision to build an advanced network traffic anomaly detection. Using the features extracted from the network to analyse and flag the network packets ultimately using a Machine learning Algorithms. Any contribution and Ideas are always appreciated. Currently Scapy is used to extract packet information but ultimately we will move on to the sockets to manually extract packets information.
@@ -21,6 +20,11 @@ pip install scapy
 
 ```bash
 python3 sniff.py
+```
+Also change the interface from "ens33" to your respective interface number to know your interface run ifconfig in your terminal and type
+
+```bash
+ifconfig
 ```
 
 ## Contributing
